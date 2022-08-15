@@ -1,0 +1,92 @@
+# javascript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .header {
+
+            height: 70px;
+            width: 100%;
+            background-color:grey;
+
+
+        }
+
+        .Carousel {
+            width:100%;
+            height:800px;
+            bacground-color:red;
+
+        }
+
+        .slider{
+            width:500%;
+            height:700px;
+            bacground-color:rgb(0, 255, 17);
+            overflow: hidden;
+
+
+        }
+
+        .slider_child{
+            width: 20%;
+            height:600px;
+            bacground-color:rgb(204, 255, 0);
+            font-size: 100px;
+            text-align:center;
+            line-height:300px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+
+    </header>
+
+    <section class="Carousal">
+
+        <div class="slider">
+            <div class="slider_child">
+                <images src="./images/pexels-arthouse-studio-4641022.jpg">
+
+                </images>
+            </div>
+            <div class="slider_child">
+                <images src="./images/pexels-emiliano-arano-2127969.jpg">
+
+                </images>
+            </div>
+            <div class="slider_child">
+                <images src="./images/pexels-pok-rie-1655166.jpg">
+
+                </images>
+            </div>
+            <div class="slider_child">
+                <images src="./images/pexels-tamba-budiarsana-244466.jpg">
+
+                </images>
+            </div>
+            <div class="slider_child">
+               <images src="./images/pexels-tobias-bjørkli-1819631.jpg">
+                
+               </images>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="./index.js>">
+
+    </script>
+</body>
+</html>
